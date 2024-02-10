@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#morado {width: 1910px; height: 580px; padding: 0px; margin: -8px; background-color: #E1D8EE; position: absolute}
+.fondo1 {width: 1910px; height: 963px; padding: 0px; margin: -8px; position: relative}
+.morado2 {width: 1910px; height: 90px; background-color: #3E295C; position: absolute; bottom: 50px;}
+.portada {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+h2 {
+	color: #000000;
+	font-family: "LEMON MILK Light", "LEMON MILK Medium", "LEMON MILK";
+	font-size: 15px;
+	position: absolute;
+	left: 30px;
+	bottom: 280px;
+}
+
+
+#circle {
+    float: left;
+    width: 560px;
+    height: 560px;
+    margin: 0px;
+    shape-outside: circle(50% at 30%);
+    clip-path: circle(50% at 0%);
+    background: #0A4F5C;
+	position: absolute;
+	top: 3px;
+	left: 670px;
+	transform: rotate(90deg);
+    }
+
